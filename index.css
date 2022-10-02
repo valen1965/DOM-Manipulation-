@@ -1,0 +1,104 @@
+html {
+  font-size: 62.5%;
+}
+
+/* body {
+  align-items: center;
+  background-color: rgb(60, 65, 72);
+  background-size: cover;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: 3rem;
+  justify-content: center;
+} */
+
+body {
+background-color:rgb(60, 65, 72); ;
+}
+
+
+#main-heading {
+text-align: center;  
+  
+}
+
+#main-heading {
+  font-size: 2.4rem;
+  color: antiquewhite;
+  letter-spacing: -0.01rem;
+}
+
+
+/* .container {
+  background-color: rgb(63, 78, 95);
+  background-size: cover;
+  border-radius: 1rem;
+  border: 2px solid white;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 35rem;
+} */
+
+ul {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.list-items {
+  align-items: center;
+  background-color: aliceblue;
+  border: 0.1px solid rgb(54, 47, 47);
+  list-style: none;
+  padding:0.7rem;
+}
+
+.list-items {
+color: rgb(79, 71, 71);
+font-size: 1.4rem;
+font-weight: 500;
+}
+
+
+/* Event listener */ 
+
+.example {
+  border: 2px solid white;
+  border-radius: 1rem;
+  width: 8rem;
+  height: 12rem;
+  margin: 0.3rem;
+  
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align:center;
+  
+}
+
+.example button {
+  background: rgb(60, 65, 72);;
+  margin-top: 2rem;
+  border: 1px solid white;
+  border-radius: 7px;
+  color: white;
+  padding-left: 10px;
+  padding-left: 10px;
+}
+
+.example button {
+  font-size: 1.5rem;
+}
+
+.example button:hover {
+  cursor: pointer;
+  background-color: rgb(1, 18, 18);
+  color: rgb(132, 110, 81);
+}
+.example h3 {
+  margin-top: 3rem;
+  color: white;
+}
+
